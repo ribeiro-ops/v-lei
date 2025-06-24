@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Escola de Vôlei - Tela Inicial</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* Reset básico */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Corpo */
+    body, html {
+      height: 100%;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #2a9d8f, #264653);
+      color: #f8f9fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    #tela-inicial {
+      background-color: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 48px 64px;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      max-width: 400px;
+      width: 100%;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #f8f9fa;
+    }
+
+    #tela-inicial h1 {
+      font-weight: 700;
+      font-size: 2.8rem;
+      margin-bottom: 2.5rem;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    #btn-entrar {
+      display: inline-block;
+      padding: 14px 36px;
+      font-size: 1.3rem;
+      font-weight: 700;
+      border-radius: 30px;
+      background-color: #e9c46a;
+      color: #264653;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+      text-decoration: none;
+      user-select: none;
+      box-shadow: 0 4px 12px rgba(233, 196, 106, 0.5);
+    }
+
+    #btn-entrar:hover {
+      background-color: #f4d97e;
+      box-shadow: 0 6px 20px rgba(244, 217, 126, 0.7);
+    }
+
+    #btn-entrar:focus {
+      outline: 3px solid #f4d97e;
+      outline-offset: 3px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="tela-inicial">
+    <h1>Escola de Vôlei</h1>
+    <a href="index2.html" id="btn-entrar">Entrar</a>
+  </div>
+
+</body>
+</html>
