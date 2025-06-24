@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Escola de Vôlei - Área do Aluno</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="depositphotos_81068518-stock-illustration-volleyballribbon-removebg-preview.png" alt="Escola de Vôlei" />
+      <h1>Vôlei</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="area-aluno.html" class="active">Área do Aluno</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="area-aluno">
+      <h2>Área do Aluno</h2>
+
+      <h3>Horários de Aula</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+            <th>Nível</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda-feira</td>
+            <td>18h às 20h</td>
+            <td>Iniciante</td>
+          </tr>
+          <tr>
+            <td>Quarta-feira</td>
+            <td>18h às 20h</td>
+            <td>Intermediário</td>
+          </tr>
+          <tr>
+            <td>Sexta-feira</td>
+            <td>18h às 21h</td>
+            <td>Avançado</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Cadastro de Aluno</h3>
+      <form action="#" method="post" id="cadastro-form">
+        <input type="text" placeholder="Nome completo" required />
+        <input type="tel" placeholder="Telefone" required />
+        <input type="email" placeholder="E-mail" required />
+        <input type="number" placeholder="Idade" required />
+        <button type="submit">Cadastrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Escola de Vôlei. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
